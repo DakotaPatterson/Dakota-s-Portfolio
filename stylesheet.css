@@ -1,0 +1,121 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color:lightgray;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*This class sets up the header for the top of the page*/
+.header {
+    background-color: lightskyblue;
+    color: transparent;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 10px solid gray;
+}
+
+/* this class sets the title to be displayed in the header with inline-block and a color gradient*/
+.header h1 {
+    display: inline-block;
+    font-size: 43px;
+    padding: 10px;
+    border: 5px;
+    background-image: linear-gradient(
+    rgba(8, 14, 191, 0.8) 0%,
+    rgba(96, 6, 129, 0.833) 100%
+);
+-webkit-background-clip: text;
+background-clip: text;
+}
+
+/*This class sets up the links in the header to be pushed to the right side and have no text decoration*/
+.header div{
+float: right;
+display: inline;
+color: rgb(33, 33, 33);
+margin-right: 25px;
+margin-top: 25px;
+padding: 20px;
+}
+
+/* This class gets rid of the bullet points for the links*/
+.header div ul {
+list-style-type: none;
+}
+
+/*This class styles the links that are applied to the header by displaying them inline*/ 
+.header div ul li {
+display: inline-block;
+margin-left: 30px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline 4px;
+    font-size: 24px;
+}
+
+/*This class pushes the links to the left to avoid running into the edge of the page*/
+.header a:last-child{
+    margin-right: 15px;
+}
+
+/* This class sets up the color change when the links are hovered over*/
+.header a:hover{
+color:rgb(63, 24, 63);
+}
+
+/*This class allows the background color to change when the links are active*/
+.header a:active{
+    background-color: rgb(63, 24, 63);
+    color: #ffffff;
+}
+
+/*This class sets up the photo under the header*/
+.Cover-photo{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid gray;
+}
+
+/*This class sets up the subtitle inside the photo*/
+.Cover-photo h2{
+    display: flex;
+    float: right;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 10px;
+    border: 5px;
+    margin-top: 130px;
+    margin-left: 860px;
+    margin-right: 100px;
+    background-color: lightskyblue;
+}
+
+.About-me{
+margin: 25px 200px 50px 200px;
+}
+
+.About-me h2{
+    font-size: 40px;
+    color: rgb(7, 7, 89);
+}
+
+.About-me h2::after{
+        border-left: 6px solid rgb(7, 7, 89);
+        position: absolute;
+        height: 120%;
+}
+
+.About-me p{
+margin-left: 30%;
+font-size: 20px;
+font-family: serif;
+color: rgb(7, 7, 89);
+}
