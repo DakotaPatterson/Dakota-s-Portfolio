@@ -97,17 +97,20 @@ a {
     background-color: lightskyblue;
 }
 
+/* This class sets up the three main sections of the body*/
 main {
     display: flex;
     margin: 25px 200px 50px 200px;
 }
 
+/*This class sets up the lft side of the three main sections*/
 aside {
     flex: 30%;
     padding: 20px;
     flex-wrap: wrap;
 }
 
+/*This class sets up the header of the three aside sections on the left side of the screen to have the vertical line beside them*/
 aside h2 {
     color: rgb(7, 7, 89);
     border-right: 6px solid rgb(7, 7, 89);
@@ -115,6 +118,7 @@ aside h2 {
     height: 100%;
 }
 
+/*This class sets up the right side of the three main sections of the body*/
 section {
     flex: 70%;
     padding: 20px;
@@ -123,6 +127,7 @@ section {
     color: rgb(7, 7, 89);
 }
 
+/*This class sets */
 section div {
     display: inline;
     color: rgb(33, 33, 33);
@@ -131,16 +136,70 @@ section div {
     padding: 20px;
 }
 
+/*This class sets the contact me list to be displayed with no bullets*/
 section div ul {
     list-style-type: none;
 }
 
+/*This class sets the contact me list to be displayed inline and to have a distance between each other of 30px*/
 section div ul li {
     display: inline-block;
     margin-left: 30px;
 }
 
+/*This class sets the dimensions for the personal photo in the about me section*/
+.personalPhoto{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    vertical-align: 6px;
+}
 
+.Images{
+    display: flex;
+    flex-wrap:  wrap;
+    flex: 0 0 66%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Borders{
+    position: relative;
+    width: fit-content;
+    margin: 10px;
+}
+
+.Images ul{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.Images li {
+    flex-basis: 350px;
+}
+
+.Images a{
+border: 6px solid lightblue;
+}
+
+.Images li img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    vertical-align: 6px;
+}
+
+.Subtitle{
+    position: absolute;
+    background-color: lightskyblue;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+/*This class sets up the footer of the page*/
 .footer {
     background-color: lightskyblue;
     color: transparent;
@@ -149,6 +208,7 @@ section div ul li {
     border-top: 10px solid gray;
 }
 
+/*This class sets up the header for the footer of the page*/
 .footer h3 {
     text-align: center;
     font-size: 26px;
@@ -160,6 +220,7 @@ section div ul li {
     background-clip: text;
 } 
 
+/*The Media screens make the page responsive during use with smaller devices*/
 @media screen and (max-width: 1218px) {
     .Cover-photo{
         display: none;
