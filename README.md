@@ -11,9 +11,9 @@ N/A
 
 ## Usage
 
-The best way to use this is to locate the links in the [header](header.png) and use them to jump to the section of the page you need to go to.
+The best way to use this is to locate the links in the [header](Images/header.png) and use them to jump to the section of the page you need to go to.
 
-Once you locate the section you need you can then read up on the needed information and use the [images and links](Images.png) provided to access the lauhed applications.
+Once you locate the section you need you can then read up on the needed information and use the [images and links](Images/Images.png) provided to access the lauhed applications.
 
 https://dakotapatterson.github.io/Dakota-s-portfolio/
 
