@@ -155,6 +155,7 @@ section div ul li {
     vertical-align: 6px;
 }
 
+/*This class sets the flex properties for the work images*/
 .Images{
     display: flex;
     flex-wrap:  wrap;
@@ -163,12 +164,14 @@ section div ul li {
     gap: 10px;
 }
 
+/*This class sets the borders on the images*/
 .Borders{
     position: relative;
     width: fit-content;
     margin: 10px;
 }
 
+/* This class arranges the photos with no bullets*/
 .Images ul{
     list-style-type: none;
     justify-content: space-between;
@@ -178,10 +181,12 @@ section div ul li {
     flex-basis: 350px;
 }
 
+/*This class sets the border color and size*/
 .Images a{
 border: 6px solid lightblue;
 }
 
+/*This class sets the images to be a set size when displayed*/
 .Images li img{
     object-fit: cover;
     max-width: 100%;
@@ -190,6 +195,7 @@ border: 6px solid lightblue;
     vertical-align: 6px;
 }
 
+/*This sets the title on the images to be displayed*/
 .Subtitle{
     position: absolute;
     background-color: lightskyblue;
