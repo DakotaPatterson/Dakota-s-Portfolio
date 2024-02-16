@@ -15,7 +15,7 @@ The best way to use this is to locate the links in the [header](Images/header.pn
 
 Once you locate the section you need you can then read up on the needed information and use the [images and links](Images/Images.png) provided to access the lauhed applications.
 
-https://dakotapatterson.github.io/Dakota-s-portfolio/
+https://dakotapatterson.github.io/Dakota-s-Portfolio/
 
 ## Credits
 
